@@ -24,7 +24,7 @@ module.exports = {
   description: "Mesaj eventidir.",
   async execute(message) {
     if (message.author.bot) return;
-    if(message.content.toLowerCase().includes("discord.gg" || "dc.gg" || "discord.com")){
+    if(message.content.toLowerCase().includes("discord.gg") || if(message.content.toLowerCase().includes("dc.gg") || if(message.content.toLowerCase().includes("discord.com"){
       if(message.member.permissions.has("ADMINISTRATOR")) return;
       let uyari = db.get(`reklamUyari_${message.author.id}`);
       if(uyari && uyari === 2){
