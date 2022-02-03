@@ -20,7 +20,7 @@ setInterval(() => {
     }
   });
 
-}, 60000);
+}, 60000 * 10);
 
 
 module.exports = { client };
