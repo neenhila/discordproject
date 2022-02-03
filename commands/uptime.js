@@ -1,4 +1,5 @@
 const ping = require("ping");
+require("express").listen(process.env.PORT || 5000)
 const db = require("quick.db");
 const fetch = require("node-fetch")
 const Discord = require("discord.js")
